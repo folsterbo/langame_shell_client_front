@@ -1,0 +1,32 @@
+/*@import "./scss/base/variables";
+@import "./scss/base/helpers";
+@import "./scss/base/mixins";
+@import "./scss/base/reset";
+@import "./scss/base/typography";
+@import "./scss/base/helpers";
+
+@import "./scss/layouts/common";
+@import "./scss/layouts/header";
+@import "./scss/layouts/footer";
+
+@import "./scss/pages/index";*/
+@import "vue-select/src/scss/vue-select.scss";
+
+//Стилизация скролла
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #878787;
+    border-radius: 4px;
+}
+
+.two-columns {
+    width: calc((100% - 64px)/2);
+}
+.field-error {
+    color: rgba(238,63,88);
+}
